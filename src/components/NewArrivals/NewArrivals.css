@@ -1,0 +1,60 @@
+.arrivals {
+    background-color: white;
+    color: black;
+    font-family: Inter;
+    font-size: 30px; /* Decrease font size */
+    font-weight: 900;
+    line-height: 50px; /* Decrease line height */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.background {
+    width: 100%; /* Adjusted to full width */
+    height: auto; /* Removed fixed height */
+    background: #445626;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the image containers horizontally */
+    padding: 20px 0; /* Add padding to create space around the images */
+}
+
+.image-container1,
+.image-container2,
+.image-container3 {
+    position: relative; /* Make the container position relative */
+    margin-right: 16px;
+    overflow:hidden; 
+}
+
+.image-container1 img,
+.image-container2 img,
+.image-container3 img{
+    width:100%;
+    height: auto;
+    display: block;
+
+}
+
+.text-overlay {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 10px; /* Adjust vertical position of text */
+    left: 50%; /* Center the text horizontally */
+    transform: translateX(-50%); /* Adjust horizontally centered text */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold font */
+    display: flex;
+width: 269px;
+height: 127px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 60px;
+font-style: normal;
+font-weight: 700;
+line-height: 78px; /* 130% */
+letter-spacing: -1px;
+}
