@@ -5,21 +5,24 @@ function Browse() {
   return (
     <div>
       <h1 className='head'>Browse More</h1>
-      <div >
-        <img src="./background-image.png" alt="image" className='image'/>
-      </div>
-      <div className='text'>
-        <h1>Sign Up for the<br/>Latest Teatotaller News &<br/>Offers!</h1>
-      </div>
-      <div className='email'>
-        <div className='email'>
-        <input type='text' placeholder='Email address'></input>
-        </div>
+      <div classname='main-div'>
 
-        <div className='signup'>
-        <input type='submit' value='JOIN US'></input>
-        </div>
-      </div>
+          <img src="./background-image.png" alt="image" classname='image' />
+
+          <div className='text'>
+          <h1>Sign Up for the<br/>Latest Teatotaller News &<br/>Offers!</h1>
+          </div>
+
+          <div className='buttons'>
+            <div>
+            <input type='text' placeholder='Email address' className='email'></input>
+            </div>
+
+            <div >
+            <input type='submit' value='JOIN US' className='signup'></input>
+            </div>
+          </div>
+      </div>  
     </div>
   )
 }

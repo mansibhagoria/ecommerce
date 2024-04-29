@@ -12,12 +12,12 @@ const Navbar = () => {
           <h1>Teatotaller</h1>
           <div className='links'>
           <li>
-            {/* <NavLink to="/" exact activeClassName="active">Home</NavLink> */}
+            
             Home
           </li>
           <li>
             Categories
-            {/* <NavLink to="/categories" activeClassName="active">Categories</NavLink> */}
+            
           </li>
           <li>
             About
