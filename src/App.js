@@ -4,6 +4,7 @@ import TopSelling from './components/TopSelling/TopSelling'
 import Customers from "./components/OurHappyCustomers/Customers";
 import Browse from "./components/BrowseMore/Browse" 
 import Footer from "./components/Footer/footer"
+import Newsletter from "./components/Newsletter/Newsletter"
 
 function App() {
   return (
@@ -27,6 +28,9 @@ function App() {
       </div>
       <div className="section2">
         <Footer/>
+      </div>
+      <div className="section2">
+        <Newsletter/>
       </div>
       
     </div>

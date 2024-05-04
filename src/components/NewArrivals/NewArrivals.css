@@ -58,3 +58,13 @@ font-weight: 700;
 line-height: 78px; /* 130% */
 letter-spacing: -1px;
 }
+
+@media screen and (max-width: 768px) {
+    .image-container1,
+    .image-container2,
+    .image-container3 {
+      width: 100%; /* Set width to 100% for responsiveness */
+      margin-right: 0; /* Remove margin-right to ensure images stack */
+    }
+  }
+  
